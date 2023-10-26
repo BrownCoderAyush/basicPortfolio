@@ -1,0 +1,87 @@
+:root{
+    --teal : #031634;
+    --cobalt : #033649; 
+    --turquoise : #066464;
+    --beige : #CEB280;
+    --gold : #EADDCC;   
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: var(--teal);
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+#intro{
+    font-size: 1.5rem;
+    color: var(--gold);
+    line-height: 1.5;
+    margin-bottom: 4rem;
+}
+.name span{
+    display: block;
+    color: var(--gold);
+    font-size: 4rem;
+}
+#experience ul{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+#experience li{
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem;
+}
+#experience a{
+  color: white;
+}
+#hire{
+    width: 400px;
+    text-align: center ;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+#hire p:last-child{
+    margin: 3rem;
+}
+.section-turquoise{
+    background-color: var(--turquoise);
+}
+nav{
+    font-size: 80%;
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+nav a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--beige);
+    text-decoration: underline;
+}
+nav li:first-child{
+    flex-grow: 1;
+    font-size: 1.5rem;
+}
